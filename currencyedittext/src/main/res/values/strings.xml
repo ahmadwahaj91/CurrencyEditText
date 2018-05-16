@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CurrencyEditText</string>
+    <string name="pound">£</string>
+</resources>

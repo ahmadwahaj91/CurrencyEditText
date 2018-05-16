@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircularProgressButton">
+        <attr name="spinning_bar_width" format="dimension"/>
+        <attr name="spinning_bar_color" format="color"/>
+        <attr name="spinning_bar_padding" format="dimension"/>
+        <attr name="initialCornerAngle" format="dimension"/>
+        <attr name="finalCornerAngle" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean"/>
+        <attr name="matProg_barColor" format="color"/>
+        <attr name="matProg_rimColor" format="color"/>
+        <attr name="matProg_rimWidth" format="dimension"/>
+        <attr name="matProg_spinSpeed" format="float"/>
+        <attr name="matProg_barSpinCycleTime" format="integer"/>
+        <attr name="matProg_circleRadius" format="dimension"/>
+        <attr name="matProg_fillRadius" format="boolean"/>
+        <attr name="matProg_barWidth" format="dimension"/>
+        <attr name="matProg_linearProgress" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_border_overlay" format="boolean"/>
+        <attr name="civ_fill_color" format="color"/>
+    </declare-styleable>
+
+
+    <attr name="dotRadius" format="dimension"/>
+
+    <declare-styleable name="CurrencyWidgets">
+        <attr name="currency_symbol" format="string"/>
+        <attr name="show_currency" format="boolean"/>
+        <attr name="show_commas" format="boolean"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="RangeBar">
+        <attr name="tickStart" format="float"/>
+        <attr name="tickEnd" format="float"/>
+        <attr name="tickInterval" format="float"/>
+        <attr name="tickHeight" format="dimension"/>
+        <attr name="rangeTickColor" format="color"/>
+        <attr name="barWeight" format="dimension"/>
+        <attr name="rangeBarColor" format="reference|color"/>
+        <attr name="rangeTextColor" format="reference|color"/>
+        <attr name="pinColor" format="reference|color"/>
+        <attr name="selectorSize" format="dimension"/>
+        <attr name="selectorBoundaryColor" format="reference|color"/>
+        <attr name="selectorBoundarySize" format="dimension"/>
+        <attr name="pinPadding" format="dimension"/>
+        <attr name="pinMinFont" format="dimension"/>
+        <attr name="pinMaxFont" format="dimension"/>
+        <attr name="rangeBarPaddingBottom" format="dimension"/>
+        <attr name="selectorColor" format="reference|color"/>
+        <attr name="rangeBar" format="boolean"/>
+        <attr name="temporaryPins" format="boolean"/>
+        <attr name="connectingLineWeight" format="dimension"/>
+        <attr name="connectingLineColor" format="reference|color"/>
+        <attr name="pinRadius" format="dimension"/>
+    </declare-styleable>
+
+    <attr name="SquareTextView" format="reference"/>
+    <declare-styleable name="SquareTextView">
+        <attr name="minTextSize" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="expandableLayout">
+        <attr name="ael_duration" format="integer" />
+        <attr name="ael_expanded" format="boolean" />
+        <attr name="ael_defaultChildIndex" format="integer" />
+        <attr name="ael_defaultPosition" format="dimension" />
+        <attr name="ael_clickable_view" format="reference" />
+        <attr name="ael_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="ael_interpolator" format="enum">
+            <enum name="accelerateDecelerate" value="0" />
+            <enum name="accelerate" value="1" />
+            <enum name="anticipate" value="2" />
+            <enum name="anticipateOvershoot" value="3" />
+            <enum name="bounce" value="4" />
+            <enum name="decelerate" value="5" />
+            <enum name="fastOutLinearIn" value="6" />
+            <enum name="fastOutSlowIn" value="7" />
+            <enum name="linear" value="8" />
+            <enum name="linearOutSlowIn" value="9" />
+            <enum name="overshoot" value="10" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="Spinner">
+        <attr name="ms_baseColor" format="color" />
+        <attr name="ms_highlightColor" format="color" />
+        <attr name="ms_floatingLabelColor" format="color" />
+        <attr name="ms_errorColor" format="integer" />
+        <attr name="ms_error" format="string" />
+        <attr name="ms_hint" format="string" />
+        <attr name="ms_floatingLabelText" format="string" />
+        <attr name="ms_multiline" format="boolean" />
+        <attr name="ms_nbErrorLines" format="integer" />
+        <attr name="ms_typeface" format="string" />
+        <attr name="ms_alignLabels" format="boolean" />
+        <attr name="ms_thickness" format="integer" />
+        <attr name="show_floating_label" format="boolean" />
+        <attr name="underlineTopSpacing" format="dimension" />
+        <attr name="isDrawUnderline" format="boolean" />
+        <attr name="underlineBottomSpacing" format="dimension" />
+        <attr name="floatingLabelTopSpacing" format="dimension" />
+        <attr name="floatingLabelBottomSpacing" format="dimension" />
+        <attr name="rightLeftSpinnerPadding" format="dimension" />
+        <attr name="floatingLabelInsideSpacing" format="dimension" />
+        <attr name="errorLabelSpacing" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="AspectRatioImageView">
+        <attr format="enum" name="ari_aspect">
+            <enum name="width" value="0"/>
+            <enum name="height" value="1"/>
+            <enum name="auto" value="2"/>
+        </attr>
+        <attr format="float" name="ari_ratio"/>
+    </declare-styleable>
+
+    <declare-styleable name="CountdownView">
+        <attr name="isHideTimeBackground" format="boolean" />
+        <attr name="isShowTimeBgDivisionLine" format="boolean" />
+        <attr name="timeBgDivisionLineColor" format="color" />
+        <attr name="timeBgDivisionLineSize" format="dimension" />
+        <attr name="timeBgColor" format="color" />
+        <attr name="timeBgSize" format="dimension" />
+        <attr name="timeBgRadius" format="dimension" />
+
+        <attr name="isTimeTextBold" format="boolean" />
+        <attr name="timeTextSize" format="dimension" />
+        <attr name="timeTextColor" format="color" />
+        <attr name="isShowDay" format="boolean" />
+        <attr name="isShowHour" format="boolean" />
+        <attr name="isShowMinute" format="boolean" />
+        <attr name="isShowSecond" format="boolean" />
+        <attr name="isShowMillisecond" format="boolean" />
+        <attr name="isConvertDaysToHours" format="boolean" />
+
+        <attr name="isSuffixTextBold" format="boolean" />
+        <attr name="suffixTextSize" format="dimension" />
+        <attr name="suffixTextColor" format="color" />
+        <attr name="suffix" format="string" />
+        <attr name="suffixDay" format="string" />
+        <attr name="suffixHour" format="string" />
+        <attr name="suffixMinute" format="string" />
+        <attr name="suffixSecond" format="string" />
+        <attr name="suffixMillisecond" format="string" />
+        <attr name="suffixGravity">
+            <enum name="top" value="0" />
+            <enum name="center" value="1" />
+            <enum name="bottom" value="2" />
+        </attr>
+        <attr name="suffixLRMargin" format="dimension" />
+        <attr name="suffixDayLeftMargin" format="dimension" />
+        <attr name="suffixDayRightMargin" format="dimension" />
+        <attr name="suffixHourLeftMargin" format="dimension" />
+        <attr name="suffixHourRightMargin" format="dimension" />
+        <attr name="suffixMinuteLeftMargin" format="dimension" />
+        <attr name="suffixMinuteRightMargin" format="dimension" />
+        <attr name="suffixSecondLeftMargin" format="dimension" />
+        <attr name="suffixSecondRightMargin" format="dimension" />
+        <attr name="suffixMillisecondLeftMargin" format="dimension" />
+
+        <attr name="isShowTimeBgBorder" format="boolean" />
+        <attr name="timeBgBorderColor" format="color" />
+        <attr name="timeBgBorderSize" format="dimension" />
+        <attr name="timeBgBorderRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TextViewLabel">
+        <attr name="labelColor" format="color|reference"/>
+    </declare-styleable>
+
+    <attr name="badgeShapeColor" format="color" />
+    <attr name="badgeTextColor" format="color" />
+    <attr name="badgecolorAccent" format="color" />
+    <attr name="badgetitleTextColor" format="color" />
+
+    <declare-styleable name="SlyceMessagingTheme">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="timestampTextColor" format="color"/>
+        <attr name="localBubbleBackground" format="color"/>
+        <attr name="localBubbleTextColor" format="color"/>
+        <attr name="externalBubbleBackground" format="color"/>
+        <attr name="externalBubbleTextColor" format="color"/>
+        <attr name="snackbarBackground" format="color"/>
+        <attr name="snackbarTitleColor" format="color"/>
+        <attr name="snackbarButtonColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="FixedAspectRatioImageView">
+        <attr name="widthToHeightRatio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="FixedAspectRatioRoundedImageView">
+        <attr name="roundedImageView_widthToHeightRatio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="AppThemeAttributes">
+        <attr name="selectableCircleDrawable" format="reference"/>
+        <attr name="selectableCircleDrawableColored" format="reference"/>
+        <attr name="selectableCircleDrawableInverse" format="reference"/>
+        <attr name="selectableRectDrawable" format="reference"/>
+        <attr name="selectableRectDrawableColored" format="reference"/>
+        <attr name="selectableRectDrawableInverse" format="reference"/>
+        <attr name="selectableRoundedRectDrawable" format="reference"/>
+        <attr name="selectableRoundedRectDrawableColored" format="reference"/>
+        <attr name="selectableRoundedRectDrawableInverse" format="reference"/>
+        <attr name="selectableRoundedRectDrawableInverseLargeRadius" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="SliderLayout">
+
+        <!-- indicator visibility -->
+        <attr name="indicator_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+
+        <attr name="auto_cycle" format="boolean" />
+
+        <!-- page animation -->
+        <attr name="pager_animation" format="enum">
+            <enum name="Default" value="0">Default</enum>
+            <enum name="Background2Foreground" value="1">Background2Foreground</enum>
+            <enum name="DepthPage" value="2">DepthPage</enum>
+            <enum name="Fade" value="3">Fade</enum>
+            <enum name="Foreground2Background" value="4">Foreground2Background</enum>
+            <enum name="ZoomOutSlide" value="5">ZoomOutSlide</enum>
+            <enum name="ZoomOut" value="6">ZoomOut</enum>
+        </attr>
+
+        <!-- page animation time span -->
+        <attr name="pager_animation_span" format="integer" />
+
+    </declare-styleable>
+    <declare-styleable name="Themes">
+        <attr name="SliderStyle" format="reference" />
+        <attr name="PagerIndicatorStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="luhnStyle">
+        <attr name="luhn_show_pin" format="boolean" />
+        <attr name="luhn_title" format="string" />
+        <attr name="luhn_show_toolbar_color" format="color" />
+        <attr name="luhn_btn_verify_selector" format="reference" />
+        <attr name="luhn_typeface" format="string" />
+    </declare-styleable>
+
+</resources>
